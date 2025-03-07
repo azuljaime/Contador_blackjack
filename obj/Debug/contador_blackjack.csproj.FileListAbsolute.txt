@@ -1,0 +1,14 @@
+C:\Users\a994159\source\repos\contador_blackjack\bin\Debug\contador_blackjack.exe.config
+C:\Users\a994159\source\repos\contador_blackjack\bin\Debug\contador_blackjack.exe
+C:\Users\a994159\source\repos\contador_blackjack\bin\Debug\contador_blackjack.pdb
+C:\Users\a994159\source\repos\contador_blackjack\obj\Debug\contador_blackjack.csproj.AssemblyReference.cache
+C:\Users\a994159\source\repos\contador_blackjack\obj\Debug\contador_blackjack.Form1.resources
+C:\Users\a994159\source\repos\contador_blackjack\obj\Debug\contador_blackjack.Properties.Resources.resources
+C:\Users\a994159\source\repos\contador_blackjack\obj\Debug\contador_blackjack.csproj.GenerateResource.cache
+C:\Users\a994159\source\repos\contador_blackjack\obj\Debug\contador_blackjack.csproj.CoreCompileInputs.cache
+C:\Users\a994159\source\repos\contador_blackjack\obj\Debug\contador_blackjack.exe
+C:\Users\a994159\source\repos\contador_blackjack\obj\Debug\contador_blackjack.pdb
+C:\Users\a994159\source\repos\contador_blackjack\bin\Debug\contador_blackjack.exe.manifest
+C:\Users\a994159\source\repos\contador_blackjack\bin\Debug\contador_blackjack.application
+C:\Users\a994159\source\repos\contador_blackjack\obj\Debug\contador_blackjack.exe.manifest
+C:\Users\a994159\source\repos\contador_blackjack\obj\Debug\contador_blackjack.application

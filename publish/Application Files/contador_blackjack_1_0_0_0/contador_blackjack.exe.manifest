@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="contador_blackjack.exe" version="1.0.0.0" publicKeyToken="09627c33eb9f28d5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="contador_blackjack" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="contador_blackjack.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="contador_blackjack.exe" size="18352">
+      <assemblyIdentity name="contador_blackjack" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EODYauk5JeEemHedBT6ENmMyI25+cjFhE/fAqsh6EFg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="contador_blackjack.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ANSES\a994159" issuerKeyHash="dbe0359b6fb91e14855838df75b5d7265be3b2ab" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>t6pFNN7f/bwJK3RiuG88HTYeczZRNkHff6i1G/IRT9k=</DigestValue></Reference></SignedInfo><SignatureValue>uRLOzAQrZF0YFPIj+DJVaBRhzhd8ZoJoTXYpW+Mykh+IRT353CBA6mfasd+c532Tct5i1Z5WJQ9Zah9Ct98mlGpwGRlLj+s084Dc/crL3c++4lsz9W0XIbyRhpf1Lo8Cg839qx7aBuMLxj7hGAi7dn8IJke4pUkhd1AmJ6+KtaI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vEFBCEVZ+OfNGX/x7I81WL3umDxUTA3QM5MErV0H60aqEvP4lmX6EkeYUiU2BjvIQmUtB4a8ppQWQoLR4TtZzClkn3rbKmpjeRdBkVab/jPbmgdhEUknCPpxE++7Uo9zC+hnMJsBGrYL5sBQUMxybsaYbu/eendWqBYKsY2Fhy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d94f11f21bb5a87fdf41365136731e361d3c6fb862742b09bcfddfde3445aab7" Description="" Url=""><as:assemblyIdentity name="contador_blackjack.exe" version="1.0.0.0" publicKeyToken="09627c33eb9f28d5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ANSES\a994159</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HlcOzdSyR5H8E6K7s0Q0csapV5P+dWgIGMIji7kl5m0=</DigestValue></Reference></SignedInfo><SignatureValue>ly2Kbp63ERcVvu9p11kMraC/5vl6x16fkTs5iVhsDVSOSArTmjMKlRB5xF+WqaHDKmFk78nbJtzY454ehuuZFGqqurOZnlRM+pawPMKAXj97ZANyOTk7hzJq/GTndTBRt7FTlhLHxSStRsaw6GtR3KzXsdGIdibrOBa4ifmD5RM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vEFBCEVZ+OfNGX/x7I81WL3umDxUTA3QM5MErV0H60aqEvP4lmX6EkeYUiU2BjvIQmUtB4a8ppQWQoLR4TtZzClkn3rbKmpjeRdBkVab/jPbmgdhEUknCPpxE++7Uo9zC+hnMJsBGrYL5sBQUMxybsaYbu/eendWqBYKsY2Fhy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQJnUXwfu0obpClMt20+cEHjANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAQQBOAFMARQBTAFwAYQA5ADkANAAxADUAOTAeFw0yNDEyMDQxNTIwMTFaFw0yNTEyMDQyMTIwMTFaMCUxIzAhBgNVBAMeGgBBAE4AUwBFAFMAXABhADkAOQA0ADEANQA5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8QUEIRVn4580Zf/HsjzVYve6YPFRMDdAzkwStXQfrRqoS8/iWZfoSR5hSJTYGO8hCZS0HhrymlBZCgtHhO1nMKWSfetsqamN5F0GRVpv+M9uaB2ERSScI+nET77tSj3ML6GcwmwEatgvmwFBQzHJuxphu7956d1aoFgqxjYWHLQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAI5X2VUIYYys4jk7umd0gvWnhgw1xFxK28Eg65+umwhBkhdtgNu9uKi4H6QvQXVjDKyeevLkazl+t5Fe29qxHTHULL94+TB+BCsynMM21P1oZoAn+BAdx90cHtbjys2S2hSoO8MnYU/VVm/UEDpEgM6jy+9drZFOw+sX1PW1DCZr</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
